@@ -1,0 +1,26 @@
+$white: #FFFFFF;
+$black: #000000;
+$yellow: #F8F200;
+$dark-yellow: #c0bd00;
+$red-error: #c0bd00;
+$blue: #52bedc;
+// #DC0D15
+$primary: $yellow;
+$error: $red-error;
+
+$z-index-bg: 0;
+$z-index-content: 1;
+$z-index-top: 2;
+
+$xs: 0;
+$sm: 320px;
+$md: 960px;
+$lg: 1300px;
+$xl: 1920px;
+
+$container-max-width--sm: $sm;
+$container-max-width--md: $md;
+$container-max-width--lg: $lg;
+$container-max-width--xl: $xl;
+
+@use 'mixins';

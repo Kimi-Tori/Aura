@@ -1,0 +1,19 @@
+@use 'variables';
+
+.color {
+    &-white {
+        color: variables.$white;
+    }
+    &-black {
+        color: variables.$black;
+    }
+    &-yellow {
+        color: variables.$yellow;
+    }
+    &-blue {
+        color: variables.$blue;
+    }
+    &-red-error {
+        color: variables.$red-error;
+    }
+}
