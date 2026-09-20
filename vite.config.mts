@@ -20,7 +20,7 @@ export default defineConfig({
    server: {
      port: 8080, // Измените на нужный вам порт
    },
-   base: '/Cyberpank/',
+   base: '/Aura/',
    build: {
      outDir: 'dist',
    },
